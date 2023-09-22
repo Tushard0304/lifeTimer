@@ -27,7 +27,7 @@ const toogleDOBselector =  () => {
 
 };
 
-//toogleDOBselector();
+
 
 const setDOBhandler = () => {
     DOB = dobinputEl.value;
@@ -42,9 +42,6 @@ const setDOBhandler = () => {
     }
 }
 
-//setDOBhandler();
-
-
 const updateAge = () => {
     const currentage = new Date();
     const datediff = currentage - DOB
@@ -55,7 +52,7 @@ const updateAge = () => {
     const minute = Math.floor(datediff / (1000*60))%60
     const second = Math.floor(datediff / 1000) % 60
 
-    //yearEl.innerHTML = year;
+    
 }
 updateAge();
 
@@ -64,15 +61,7 @@ setiEl.addEventListener('click',toogleDOBselector);
 dobbtnEl.addEventListener('click',setDOBhandler);
 
 
-// const tooglesecondcont = () => {
-//     if(isDOBopen){
-//         secondcontEl.classList.add("hide");
-//     }
-//     else{
-//         secondcontEl.classList.remove("hide");
-//     }
-//     isDOBopen = !isDOBopen
-// }
+
 
 
 
