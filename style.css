@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-img{
+    background-image: url("./images/mountains-1412683_1280.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* object-fit: cover; */
+}
+.container{
+    display: grid;
+    /* flex-direction: column;
+    justify-content: center; */
+    place-items: center;
+    height: 100vh;
+}
+.container h1{
+    font-size: 4.5rem;
+    color: rgb(22, 8, 73);
+}
+.setting{
+    position: absolute;
+    bottom: 3vh;
+    right: 1.8vw;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.setting .fa-cog{
+    font-size: 3vw;
+    color: seagreen;
+}
+.setting-content{
+    display: flex;
+    gap: 1rem;
+}
+.setting-content input{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+.setting-content button{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+.timer-cont{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+.timer-cont h2{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(22, 8, 73) ;
+}
+.timer-cont div{
+    font-size: 5rem;
+    color: rgb(4, 44, 21);
+    
+}
